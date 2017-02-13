@@ -1,1 +1,3 @@
-dpkg-deb -Zgzip -b Package
+#!/bin/bash
+
+dpkg-deb -bZgip projects/WXHook debs
